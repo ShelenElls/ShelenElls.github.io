@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import {Routes} from 'react-router';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/main.scss'; // All of our styles
 import About from './pages/About';
@@ -15,7 +15,7 @@ const { PUBLIC_URL } = process.env;
 
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  <HashRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
@@ -26,7 +26,7 @@ const App = () => (
         <Route element={<NotFound />} status={404} />
       </Routes>
     </Suspense>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
