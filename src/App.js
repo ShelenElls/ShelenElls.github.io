@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import {Routes} from 'react-router';
+import { BrowserRouter, Route} from 'react-router-dom';
+import Main from './layouts/Main'; // fallback for lazy pages
+import './static/main.scss'; // All of our styles
+import About from './pages/About';
+import Index from './pages/Index';
+import NotFound from './pages/NotFound';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const { PUBLIC_URL } = process.env;
+
+
+
+const App = () => (
+  <BrowserRouter basename={PUBLIC_URL}>
+    <Suspense fallback={<Main />}>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
+        <Route element={<NotFound />} status={404} />
+      </Routes>
+    </Suspense>
+  </BrowserRouter>
+);
 
 export default App;
