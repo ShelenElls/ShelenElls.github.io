@@ -20,8 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Shelen. I like solving puzzles and fixing things.
-        I am a <a href="https://www.hackreactor.com/">Hack Reactor</a> Alumni of the 
-        Python with Javascript Certificate program. 
+        I am an Alumni of the <a href="https://www.hackreactor.com/">Hack Reactor</a> with
+        Advanced Software Engineering Certificate program.
         Prior to my transition into Software Engineering,
         I was a Licensed Mortgage Officer with <a href="https://www.rocketmortgage.com">Rocket Mortgage</a>
         ; an Ocular Recovery Technician at <a href="https://www.dnaz.org/">Donor Network of Arizona</a>
