@@ -19,7 +19,7 @@ const data = [
     date: '2022-6-01',
     desc:
       'A full-stack project utalizing Python, Javascript, SQL, Django and React.'
-      + 'This project incorporates an API to collect information such as the weather'
+      + 'This project incorporates an API to collect information such as the weather '
       + 'for the city at any given conference location.'
   },
   {

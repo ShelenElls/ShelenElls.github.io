@@ -23,7 +23,7 @@ const SideBar = () => (
         I am a <a href="https://www.hackreactor.com/">Hack Reactor</a> Alumni of the 
         Python with Javascript Certificate program. 
         Prior to my transition into Software Engineering,
-        I was a Licsensed Mortgage Officer with <a href="https://www.rocketmortgage.com">Rocket Mortgage</a>
+        I was a Licensed Mortgage Officer with <a href="https://www.rocketmortgage.com">Rocket Mortgage</a>
         ; an Ocular Recovery Technician at <a href="https://www.dnaz.org/">Donor Network of Arizona</a>
         ; and a Patient Care Technician with various Emergency Departments in hospitals such as <a href="https://www.dignityhealth.org/">Dignity Health</a>
         , <a href="https://www.bannerhealth.com/">Banner Health</a>
