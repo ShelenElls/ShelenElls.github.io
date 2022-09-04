@@ -1,5 +1,15 @@
 const positions = [
   {
+    company: 'Galvanize with Hack Reactor',
+    position: 'Software Engineer Immersive Resident',
+    link: 'https://www.hackreactor.com/',
+    daterange: 'August 2022 - Current',
+    points: [
+      'Provide one-on-one and small-group technical and project management guidance and support to students.',
+      'Contribute to campus operational needs and projects.',
+    ],
+  },
+  {
     company: 'Rocket Mortgage LLC',
     position: 'Mortgage Banker',
     link: 'https://www.rocketmortgage.com',
