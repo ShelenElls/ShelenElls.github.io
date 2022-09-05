@@ -6,7 +6,7 @@ const positions = [
     daterange: 'August 2022 - Current',
     points: [
       'Provide one-on-one and small-group technical and project management guidance and support to students.',
-      'Contribute to campus operational needs and projects.',
+      'Contribute to campus operational needs including but not limited to production level projects.',
     ],
   },
   {
