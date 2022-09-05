@@ -12,13 +12,13 @@ const courses = [
     title: 'HTML5'
   },
   {
-    title: 'CSS/SCSS'
+    title: 'CSS/SASS'
   },
   {
-    title: 'React'
+    title: 'React.js'
   },
   {
-    title: 'Node.js'
+    title: 'Bootstrap'
   },
   {
     title: 'PostgreSQL/SQLite3/SQL'
@@ -27,13 +27,28 @@ const courses = [
     title: 'Docker'
   },
   {
-    title: 'Mongo DB'
+    title: 'JSON'
   },
   {
     title: 'RESTful APIs'
   },
   {
+    title: 'CI/CD'
+  },
+  {
+    title: 'AWS: EC2'
+  },
+  {
+    title: 'Polling/Queueing '
+  },
+  {
+    title: 'Monoliths/Microservices'
+  },
+  {
     title: 'GitHub/Git'
+  },
+  {
+    title: 'Object Oriented Programming'
   },
 ];
 
