@@ -2,7 +2,7 @@ const data = [
   {
     title: 'Transport Application',
     subtitle: 'Community Schools',
-    image: '/images/projects/sunflower1.jpg',
+    image: 'n/a',
     link: 'n/a',
     date: '2023-2-20',
     desc:
