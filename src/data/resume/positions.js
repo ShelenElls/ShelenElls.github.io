@@ -2,7 +2,7 @@ const positions = [
   {
     company: 'CPLC Community Schools',
     position: 'Software Developer',
-    link: 'https://www.hackreactor.com/',
+    link: 'https://cplc.org/',
     daterange: 'February 2023 - Current',
     points: [
       'Served in a role similar to a Team Lead, making pivotal decisions about technology selection and architectural design.',
