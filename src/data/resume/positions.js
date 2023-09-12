@@ -1,9 +1,19 @@
 const positions = [
   {
+    company: 'CPLC Community Schools',
+    position: 'Software Developer',
+    link: 'https://www.hackreactor.com/',
+    daterange: 'February 2023 - Current',
+    points: [
+      'Served in a role similar to a Team Lead, making pivotal decisions about technology selection and architectural design.',
+      'I held the primary responsibility for the direction of the product and oversaw the entire software development lifecycle.', 
+    ],
+  },
+  {
     company: 'Galvanize with Hack Reactor',
     position: 'Software Engineer Immersive Resident',
     link: 'https://www.hackreactor.com/',
-    daterange: 'August 2022 - Current',
+    daterange: 'August 2022 - February 2023',
     points: [
       'Provide one-on-one and small-group technical and project management guidance and support to students.',
       'Contribute to campus operational needs including but not limited to production level projects.',
