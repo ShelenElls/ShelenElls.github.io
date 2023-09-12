@@ -2,7 +2,7 @@ const data = [
   {
     title: 'Transport Application',
     subtitle: 'Community Schools',
-    image: '/images/projects/sunflower1.jpg',
+    image: 'n/a',
     link: 'n/a',
     date: '2023-2-20',
     desc:
@@ -13,7 +13,7 @@ const data = [
   {
     title: 'Pirates Booty',
     subtitle: 'On the go workout APP',
-    image: '/images/projects/PiratesMainPage.jpg',
+    image: 'n/a',
     link: 'https://gitlab.com/hr-data-pirates/pirates-booty/-/blob/main-submission/README.md',
     date: '2022-7-01',
     desc:
@@ -26,7 +26,7 @@ const data = [
   {
     title: 'Conference GO',
     subtitle: 'Resource for in-person and virtual conference planner for attendees and presenters',
-    image: '/images/projects/conferencego1.jpg',
+    image: 'n/a',
     link: 'https://github.com/ShelenElls/ConferenceJS/blob/main/README.md',
     date: '2022-6-01',
     desc:
@@ -39,7 +39,7 @@ const data = [
   {
     title: 'CarCar',
     subtitle: 'The premiere solution for automobile dealership management!',
-    image: '/images/projects/carcarpic.jpg',
+    image: 'n/a',
     link: 'https://github.com/ShelenElls/CarCar/blob/main/README.md',
     date: '2022-6-01',
     desc:
