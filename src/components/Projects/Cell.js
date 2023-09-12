@@ -9,7 +9,7 @@ const Cell = ({ data }) => (
         <h3><a href={data.link}>{data.title}</a></h3>
         <br></br>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
-      </header><br></br><br></br>
+      </header><br></br><br></br><br></br><br></br><br></br><br></br>
       <div className="description">
         <p>{data.desc}</p>
       </div>
